@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.shaheen.entity.Account" table="account">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="userName" column="user_name" type="string"></property>
+        <property name="address" column="address" type="string"></property>
+        <property name="phone" column="phone" type="string"></property>
+        <property name="birthday" column="birthday" type="date"></property>
+        <property name="fullName" column="full_name" type="string"></property>
+        <property name="password" column="password" type="string"></property>
+    </class>
+</hibernate-mapping>
