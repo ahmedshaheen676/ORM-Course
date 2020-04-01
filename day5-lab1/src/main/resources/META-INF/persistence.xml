@@ -5,7 +5,7 @@
     <class>com.shaheen.model.Student</class>
     <properties>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/iti?createifnotexist=true&amp;zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/iti?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;character_set_server=UTF-8&amp;zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="root"/>
